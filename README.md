@@ -5,10 +5,14 @@
 
 ## Definiciones
  **Itemset:** Colección de uno o más ítems
+ 
  **Soporte:** Frecuencia relativa que un itemset aparece en la base de datos. 
- Esto se calcula como el número itemset que aparece en la base de datos de compras dividido por el número total de compras (transacciones) .
+ Esto se calcula como el número itemset que aparece en la base de datos de compras dividido por el número total de compras (transacciones).
+
  **Itemset frecuente:** Un itemset que aparece en una frecuencia mayor a un umbral. El umbral está determinado por uno o bien viene dado.
+
  **Regla de asociación:** Es una expresión de la forma X -> Y Donde X e Y son itemsets
+ 
  **Confianza:** 
 
     confianza(X -> Y) = soporte(X,Y) / soporte(X)
