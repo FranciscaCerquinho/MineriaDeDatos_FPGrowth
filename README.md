@@ -183,7 +183,7 @@ Tabla con las reglas de asociación y su soporte, confianza y lift
    - desiredLift (number) : lift deseado
 
 
-Para seleccionar la cantidad de arrays de bases de datos que queremos usar, cambie la variable **'nr_arrays'** definida en el primer bloque de código. El soporte mínimo deseado para cada elemento también se define, la variable se llama **'min_support'**.
+Para seleccionar la cantidad de arrays de bases de datos que queremos usar, cambie la variable **'nr_arrays'**. El soporte mínimo deseado para cada elemento también se define, la variable se llama **'min_support'**.
 
 Durante la implementación del algoritmo FP-Growth, traté de comentar sobre el código y dibujé tablas ilustrativas en todo el código, para que sea más fácil de entender.
 
